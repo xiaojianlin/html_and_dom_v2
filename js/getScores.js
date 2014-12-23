@@ -7,3 +7,5 @@ function GetScores(identifier,answer,score) {
 GetScores.prototype.getScore = function() {
 
 };
+
+module.exports = GetScores;

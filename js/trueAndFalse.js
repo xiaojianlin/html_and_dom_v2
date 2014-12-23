@@ -1,3 +1,6 @@
+var GetScores = require('./getScores');
+
+
 function TrueAndFalse(identifier,answer,score) {
   GetScores.call(this,identifier,answer,score);
 }
@@ -14,3 +17,6 @@ TrueAndFalse.prototype.getScore = function() {
   }
   return score;
 };
+
+
+module.exports = TrueAndFalse;

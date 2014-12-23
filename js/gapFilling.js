@@ -1,3 +1,6 @@
+var GetScores = require('./getScores');
+
+
 function GapFilling(identifier,answer,score) {
   GetScores.call(this,identifier,answer,score);
 }
@@ -12,3 +15,6 @@ GapFilling.prototype.getScore = function() {
     return 0;
   }
 };
+
+
+module.exports = GapFilling;

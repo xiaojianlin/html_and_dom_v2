@@ -1,3 +1,6 @@
+var GetScores = require('./getScores');
+
+
 function MultipleChoice(identifier,answer,score) {
   GetScores.call(this,identifier,answer,score);
 }
@@ -18,3 +21,6 @@ MultipleChoice.prototype.getScore = function() {
     return 0;
   }
 };
+
+
+module.exports = MultipleChoice;
