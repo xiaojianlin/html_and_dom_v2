@@ -1,4 +1,3 @@
-
 var Question = require('./js/question');
 var TrueAndFalse = require('./js/trueAndFalse');
 var MultipleChoice = require('./js/multipleChoice');
